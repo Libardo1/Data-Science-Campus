@@ -1,0 +1,124 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num
+32,Male,typical angina,95,0,NA,normal,127,No,0.7,upsloping,NA,NA,1
+34,Male,asymptomatic,115,0,NA,NA,154,No,0.2,upsloping,NA,NA,1
+35,Male,asymptomatic,NA,0,NA,normal,130,Yes,NA,NA,NA,reversable defect,3
+36,Male,asymptomatic,110,0,NA,normal,125,Yes,1,flat,NA,fixed defect,1
+38,Female,asymptomatic,105,0,NA,normal,166,No,2.8,upsloping,NA,NA,2
+38,Female,asymptomatic,110,0,0,normal,156,No,0,flat,NA,normal,1
+38,Male,non-anginal pain,100,0,NA,normal,179,No,-1.1,upsloping,NA,NA,0
+38,Male,non-anginal pain,115,0,0,normal,128,Yes,0,flat,NA,reversable defect,1
+38,Male,asymptomatic,135,0,NA,normal,150,No,0,NA,NA,normal,2
+38,Male,asymptomatic,150,0,NA,normal,120,Yes,NA,NA,NA,normal,1
+40,Male,asymptomatic,95,0,NA,ST-T wave abnormality,144,No,0,upsloping,NA,NA,2
+41,Male,asymptomatic,125,0,NA,normal,176,No,1.6,upsloping,NA,NA,2
+42,Male,asymptomatic,105,0,NA,normal,128,Yes,-1.5,downsloping,NA,NA,1
+42,Male,asymptomatic,145,0,0,normal,99,Yes,0,flat,NA,NA,2
+43,Male,asymptomatic,100,0,NA,normal,122,No,1.5,downsloping,NA,NA,3
+43,Male,asymptomatic,115,0,0,normal,145,Yes,2,flat,NA,reversable defect,4
+43,Male,asymptomatic,140,0,0,ST-T wave abnormality,140,Yes,0.5,upsloping,NA,reversable defect,2
+45,Male,non-anginal pain,110,0,NA,normal,138,No,-0.1,upsloping,NA,NA,0
+46,Male,asymptomatic,100,0,NA,ST-T wave abnormality,133,No,-2.6,flat,NA,NA,1
+46,Male,asymptomatic,115,0,0,normal,113,Yes,1.5,flat,NA,reversable defect,1
+47,Male,non-anginal pain,110,0,NA,normal,120,Yes,0,NA,NA,normal,1
+47,Male,non-anginal pain,155,0,0,normal,118,Yes,1,flat,NA,normal,3
+47,Male,asymptomatic,110,0,NA,ST-T wave abnormality,149,No,2.1,upsloping,NA,NA,2
+47,Male,asymptomatic,160,0,0,normal,124,Yes,0,flat,NA,reversable defect,1
+48,Male,asymptomatic,115,0,NA,normal,128,No,0,flat,NA,fixed defect,2
+50,Female,asymptomatic,160,0,NA,normal,110,No,0,NA,NA,normal,1
+50,Male,asymptomatic,115,0,0,normal,120,Yes,0.5,flat,NA,fixed defect,3
+50,Male,asymptomatic,120,0,0,ST-T wave abnormality,156,Yes,0,upsloping,NA,fixed defect,3
+50,Male,asymptomatic,145,0,NA,normal,139,Yes,0.7,flat,NA,NA,1
+51,Female,asymptomatic,120,0,NA,normal,127,Yes,1.5,upsloping,NA,NA,2
+51,Male,asymptomatic,110,0,NA,normal,92,No,0,flat,NA,NA,4
+51,Male,asymptomatic,120,0,1,normal,104,No,0,flat,NA,normal,3
+51,Male,asymptomatic,130,0,NA,normal,170,No,-0.7,upsloping,NA,NA,2
+51,Male,asymptomatic,130,0,NA,ST-T wave abnormality,163,No,0,NA,NA,reversable defect,1
+51,Male,asymptomatic,140,0,0,normal,60,No,0,flat,NA,normal,2
+51,Male,asymptomatic,95,0,NA,normal,126,No,2.2,flat,NA,NA,2
+52,Male,asymptomatic,130,0,NA,normal,120,No,0,flat,NA,reversable defect,2
+52,Male,asymptomatic,135,0,NA,normal,128,Yes,2,flat,NA,reversable defect,2
+52,Male,asymptomatic,165,0,NA,normal,122,Yes,1,upsloping,NA,reversable defect,2
+52,Male,asymptomatic,95,0,NA,normal,82,Yes,NA,NA,NA,NA,2
+53,Male,atypical angina,120,0,0,normal,95,No,0,flat,NA,normal,3
+53,Male,atypical angina,130,0,NA,ST-T wave abnormality,120,No,0.7,downsloping,NA,NA,0
+53,Male,non-anginal pain,105,0,0,normal,115,No,0,flat,NA,reversable defect,1
+53,Male,non-anginal pain,160,0,NA,probable/definite hypertrophy,122,Yes,0,NA,NA,reversable defect,1
+53,Male,asymptomatic,120,0,NA,normal,120,No,0,flat,NA,reversable defect,1
+53,Male,asymptomatic,125,0,NA,normal,120,No,1.5,upsloping,NA,NA,4
+53,Male,asymptomatic,130,0,0,probable/definite hypertrophy,135,Yes,1,flat,NA,reversable defect,2
+53,Male,asymptomatic,80,0,NA,normal,141,Yes,2,downsloping,NA,NA,0
+54,Male,asymptomatic,120,0,0,normal,155,No,0,flat,NA,reversable defect,2
+54,Male,asymptomatic,130,0,NA,normal,110,Yes,3,flat,NA,reversable defect,3
+54,Male,asymptomatic,180,0,NA,normal,150,No,1.5,flat,NA,reversable defect,1
+55,Male,atypical angina,140,0,NA,ST-T wave abnormality,150,No,0.2,upsloping,NA,NA,0
+55,Male,asymptomatic,115,0,NA,normal,155,No,0.1,flat,NA,NA,1
+55,Male,asymptomatic,120,0,0,ST-T wave abnormality,92,No,0.3,upsloping,NA,reversable defect,4
+55,Male,asymptomatic,140,0,0,normal,83,No,0,flat,NA,reversable defect,2
+56,Male,non-anginal pain,120,0,0,normal,97,No,0,flat,NA,reversable defect,0
+56,Male,non-anginal pain,125,0,NA,normal,98,No,-2,flat,NA,reversable defect,2
+56,Male,non-anginal pain,155,0,0,ST-T wave abnormality,99,No,0,flat,NA,normal,2
+56,Male,asymptomatic,115,0,NA,ST-T wave abnormality,82,No,-1,upsloping,NA,NA,1
+56,Male,asymptomatic,120,0,0,ST-T wave abnormality,100,Yes,-1,downsloping,NA,reversable defect,2
+56,Male,asymptomatic,120,0,0,ST-T wave abnormality,148,No,0,flat,NA,NA,2
+56,Male,asymptomatic,125,0,1,normal,103,Yes,1,flat,NA,reversable defect,3
+56,Male,asymptomatic,140,0,NA,normal,121,Yes,1.8,upsloping,NA,NA,1
+57,Male,non-anginal pain,105,0,NA,normal,148,No,0.3,flat,NA,NA,1
+57,Male,asymptomatic,110,0,NA,ST-T wave abnormality,131,Yes,1.4,upsloping,1,NA,3
+57,Male,asymptomatic,140,0,0,normal,120,Yes,2,flat,NA,fixed defect,2
+57,Male,asymptomatic,140,0,NA,normal,100,Yes,0,NA,NA,fixed defect,3
+57,Male,asymptomatic,160,0,NA,normal,98,Yes,2,flat,NA,reversable defect,2
+57,Male,asymptomatic,95,0,NA,normal,182,No,0.7,downsloping,NA,NA,1
+58,Male,asymptomatic,115,0,NA,normal,138,No,0.5,upsloping,NA,NA,1
+58,Male,asymptomatic,130,0,0,ST-T wave abnormality,100,Yes,1,flat,NA,fixed defect,4
+58,Male,asymptomatic,170,0,NA,ST-T wave abnormality,105,Yes,0,NA,NA,normal,1
+59,Male,non-anginal pain,125,0,NA,normal,175,No,2.6,flat,NA,NA,1
+59,Male,asymptomatic,110,0,NA,normal,94,No,0,NA,NA,fixed defect,3
+59,Male,asymptomatic,120,0,0,normal,115,No,0,flat,NA,normal,2
+59,Male,asymptomatic,125,0,NA,normal,119,Yes,0.9,upsloping,NA,NA,1
+59,Male,asymptomatic,135,0,0,normal,115,Yes,1,flat,NA,reversable defect,1
+60,Male,non-anginal pain,115,0,NA,normal,143,No,2.4,upsloping,NA,NA,1
+60,Male,asymptomatic,125,0,NA,normal,110,No,0.1,upsloping,2,NA,3
+60,Male,asymptomatic,130,0,NA,ST-T wave abnormality,130,Yes,1.1,downsloping,1,NA,1
+60,Male,asymptomatic,135,0,0,normal,63,Yes,0.5,upsloping,NA,reversable defect,3
+60,Male,asymptomatic,160,0,0,ST-T wave abnormality,99,Yes,0.5,flat,NA,reversable defect,3
+60,Male,asymptomatic,160,0,NA,normal,149,No,0.4,flat,NA,NA,1
+61,Male,non-anginal pain,200,0,NA,ST-T wave abnormality,70,No,0,NA,NA,normal,3
+61,Male,asymptomatic,105,0,NA,normal,110,Yes,1.5,upsloping,NA,NA,1
+61,Male,asymptomatic,110,0,NA,normal,113,No,1.4,flat,NA,NA,1
+61,Male,asymptomatic,125,0,0,normal,105,Yes,0,downsloping,NA,reversable defect,3
+61,Male,asymptomatic,130,0,0,probable/definite hypertrophy,115,No,0,flat,NA,reversable defect,3
+61,Male,asymptomatic,130,0,NA,normal,77,No,2.5,flat,NA,NA,3
+61,Male,asymptomatic,150,0,0,normal,105,Yes,0,flat,NA,reversable defect,1
+61,Male,asymptomatic,150,0,0,normal,117,Yes,2,flat,NA,reversable defect,2
+61,Male,asymptomatic,160,0,1,ST-T wave abnormality,145,No,1,flat,NA,reversable defect,2
+62,Female,typical angina,140,0,NA,normal,143,No,0,NA,NA,normal,2
+62,Female,asymptomatic,120,0,NA,ST-T wave abnormality,123,Yes,1.7,downsloping,NA,NA,1
+62,Male,typical angina,120,0,NA,probable/definite hypertrophy,134,No,-0.8,flat,2,NA,1
+62,Male,non-anginal pain,160,0,0,normal,72,Yes,0,flat,NA,normal,3
+62,Male,asymptomatic,115,0,NA,normal,128,Yes,2.5,downsloping,NA,NA,2
+62,Male,asymptomatic,115,0,NA,normal,72,Yes,-0.5,flat,NA,normal,1
+62,Male,asymptomatic,150,0,NA,ST-T wave abnormality,78,No,2,flat,NA,reversable defect,3
+63,Male,asymptomatic,100,0,NA,normal,109,No,-0.9,flat,NA,NA,1
+63,Male,asymptomatic,140,0,NA,probable/definite hypertrophy,149,No,2,upsloping,NA,NA,2
+63,Male,asymptomatic,150,0,0,normal,86,Yes,2,flat,NA,NA,3
+63,Male,asymptomatic,150,0,NA,ST-T wave abnormality,154,No,3.7,upsloping,NA,NA,3
+63,Male,asymptomatic,185,0,0,normal,98,Yes,0,upsloping,NA,reversable defect,1
+64,Female,asymptomatic,200,0,0,normal,140,Yes,1,flat,NA,normal,3
+64,Female,asymptomatic,95,0,NA,normal,145,No,1.1,downsloping,NA,NA,1
+64,Male,asymptomatic,110,0,NA,normal,114,Yes,1.3,downsloping,NA,NA,1
+65,Male,asymptomatic,115,0,0,normal,93,Yes,0,flat,NA,reversable defect,1
+65,Male,asymptomatic,145,0,NA,ST-T wave abnormality,67,No,NA,NA,NA,fixed defect,3
+65,Male,asymptomatic,155,0,NA,normal,154,No,1,upsloping,NA,NA,0
+65,Male,asymptomatic,160,0,1,ST-T wave abnormality,122,No,NA,NA,NA,reversable defect,3
+66,Female,asymptomatic,155,0,NA,normal,90,No,0,NA,NA,reversable defect,1
+66,Male,asymptomatic,150,0,0,normal,108,Yes,2,flat,NA,reversable defect,3
+67,Male,typical angina,145,0,0,probable/definite hypertrophy,125,No,0,flat,NA,normal,2
+68,Male,asymptomatic,135,0,0,ST-T wave abnormality,120,Yes,0,upsloping,NA,reversable defect,3
+68,Male,asymptomatic,145,0,NA,normal,136,No,1.8,upsloping,NA,NA,1
+69,Male,asymptomatic,135,0,0,normal,130,No,0,flat,NA,fixed defect,1
+69,Male,asymptomatic,NA,0,0,ST-T wave abnormality,NA,NA,NA,NA,NA,reversable defect,3
+70,Male,asymptomatic,115,0,0,ST-T wave abnormality,92,Yes,0,flat,NA,reversable defect,1
+70,Male,asymptomatic,140,0,1,normal,157,Yes,2,flat,NA,reversable defect,3
+72,Male,non-anginal pain,160,0,NA,probable/definite hypertrophy,114,No,1.6,flat,2,NA,0
+73,Female,non-anginal pain,160,0,0,ST-T wave abnormality,121,No,0,upsloping,NA,normal,1
+74,Male,atypical angina,145,0,NA,ST-T wave abnormality,123,No,1.3,upsloping,NA,NA,1
