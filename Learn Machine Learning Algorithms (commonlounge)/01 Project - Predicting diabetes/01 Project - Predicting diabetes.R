@@ -72,6 +72,8 @@ my_trControl <- caret::trainControl(method = "cv", number = 10,
 ## --------------------------------------------------------------------
 ## 3.2 Fit logistic regression model (the CARET package approach)
 ## --------------------------------------------------------------------
+set.seed(pi)
+
 fit_glm <- caret::train(target ~ ., 
                         data = ds_train, 
                         method = "glm", 
@@ -88,9 +90,14 @@ confMatrix_glm <- confusionMatrix(data = diabetes_predicted_glm,
                                   reference = diabetes_observed)
 confMatrix_glm
 
+## variable importance 
+plot(caret::varImp(fit_glm))
+
 ## --------------------------------------------------------------------
 ## 3.3 Fit Tree regression model
 ## --------------------------------------------------------------------
+set.seed(pi)
+
 fit_tree <- caret::train(target ~ ., 
                          data = ds_train, 
                          method = "rpart",
@@ -104,9 +111,33 @@ confMatrix_tree <- confusionMatrix(data = diabetes_predicted_rpart,
                                    reference = diabetes_observed)
 confMatrix_tree
 
+## variable importance 
+plot(caret::varImp(fit_tree))
+
 ## plot decision tree
 rpart.plot::rpart.plot(x = fit_tree$finalModel)
 
+## --------------------------------------------------------------------
+## 3.4 Fit Random-Forest model
+## --------------------------------------------------------------------
+set.seed(pi)
+
+fit_rf <- caret::train(target ~ ., 
+                       data = ds_train, 
+                       method = "rf",
+                       trControl = my_trControl,
+                       allowParallel = T)
+fit_rf
+
+## Evaluate model performance using test dataset
+## Result: accuracy = 0.7255
+diabetes_predicted_rf <- predict(object = fit_rf, newdata = my_newdata)
+confMatrix_rf <- confusionMatrix(data = diabetes_predicted_rf, 
+                                   reference = diabetes_observed)
+confMatrix_rf
+
+## variable importance 
+plot(caret::varImp(fit_rf))
 
 
 
