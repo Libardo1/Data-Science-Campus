@@ -1,0 +1,4 @@
+Elements of Statistical Learning
+Data Mining, Inference, and Prediction
+By Trevor Hastie Robert Tibshirani, Jerome Friedman
+Springer-Verlag New York Inc.
