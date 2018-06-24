@@ -1,0 +1,2 @@
+Data source: https://www.ibm.com/communities/analytics/watson-analytics-blog/hr-employee-attrition/
+IBM Watson Analytics article: https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-for-hr-retaining-valuable-employees/
