@@ -10,6 +10,8 @@
 source("./03 R programs/load library.R")
 source("./03 R programs/get_varMetadata.R")
 source("./03 R programs/preprocess_varTypes.R")
+source("./03 R programs/plot_histogram_eda.R")
+source("./03 R programs/plot_association_eda.R")
 
 ## -----------------------------------------------------
 ## Step 1. load raw credit dataset and dictionary
@@ -97,16 +99,60 @@ train_final <- train %>%
 test_final <- test %>% 
   dplyr::select(-Occupation)
 
+## ---------------------------------------------------
+## Step 4. Check a need for transformation
+## ---------------------------------------------------
+plot_histogram_eda(dsin = train_final,
+                   metadata_variable = metadata_variable_train, 
+                   id_var = "id")
+
+plot_histogram_eda(dsin = test_final,
+                   metadata_variable = metadata_variable_test, 
+                   id_var = "id")
+
+## Decision: CreditAmount should be transformed
+## -- training set
+train_final_transf <- train_final %>% 
+  dplyr::mutate(ln_CreditAmount = log(CreditAmount)) %>% 
+  dplyr::select(-CreditAmount)
+
+plot_histogram_eda(dsin = train_final_transf,
+                   metadata_variable = metadata_variable_train, 
+                   id_var = "id")
+
+## -- test set
+test_final_transf <- test_final %>% 
+  dplyr::mutate(ln_CreditAmount = log(CreditAmount)) %>% 
+  dplyr::select(-CreditAmount)
+
+plot_histogram_eda(dsin = test_final_transf,
+                   metadata_variable = metadata_variable_test, 
+                   id_var = "id")
 
 ## ---------------------------------------------------
-## Step 4. Save analysis dataset and its metadat
+## Step 5. Check for outliers
+## ---------------------------------------------------
+## Conclusion: no need for transformation for interval variables
+plot_association_eda(dsin = train_final_transf, 
+                     response_var = "Creditability", 
+                     plot_type = "boxplot", 
+                     id_var = "id")
+
+## Conclusion: no need for transformation for factor variables
+plot_association_eda(dsin = train_final_transf, 
+                     response_var = "Creditability", 
+                     plot_type = "barplot", 
+                     id_var = "id")
+
+## ---------------------------------------------------
+## Step 6. Save analysis dataset and its metadat
 ## ---------------------------------------------------
 ## Save training set
-readr::write_rds(x = train_final, path = "./02 Analysis dataset/train.rds")
+readr::write_rds(x = train_final_transf, path = "./02 Analysis dataset/train.rds")
 readr::write_csv(x = metadata_variable_train, path = "./02 Analysis dataset/metadata_variable_train.csv", 
                  col_names = )
 
 ## Save test set
-readr::write_rds(x = test_final, path = "./02 Analysis dataset/test.rds")
+readr::write_rds(x = test_final_transf, path = "./02 Analysis dataset/test.rds")
 readr::write_csv(x = metadata_variable_test, path = "./02 Analysis dataset/metadata_variable_test.csv", 
                  col_names = T)
