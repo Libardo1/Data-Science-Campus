@@ -135,6 +135,7 @@ confMatrix_nn <- confusionMatrix(data = creditability_pred_nn,
                                  reference = creditability_actual)
 confMatrix_nn
 
+plot(caret::varImp(fit_nn))
 plot(fit_nn)
 
 ## --------------------------------------------------------------------
