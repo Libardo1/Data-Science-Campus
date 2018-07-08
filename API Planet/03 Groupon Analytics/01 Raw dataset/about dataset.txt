@@ -1,0 +1,1 @@
+https://partner-int-api.groupon.com/help/reporting-version-2-campaign-api
