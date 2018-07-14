@@ -1,0 +1,13 @@
+key_variable,value_unique,flg_toFactor,percent_missing,dsin_type
+ApplicantIncome,505,FALSE,0,train
+CoapplicantIncome,287,FALSE,0,train
+Credit_History,3,TRUE,8.143322475570033,train
+Dependents,5,TRUE,2.44299674267101,train
+Education,2,TRUE,0,train
+Gender,3,TRUE,2.1172638436482085,train
+Loan_Amount_Term,11,TRUE,2.2801302931596092,train
+Loan_Status,2,TRUE,0,train
+LoanAmount,204,FALSE,3.5830618892508146,train
+Married,3,TRUE,0.4885993485342019,train
+Property_Area,3,TRUE,0,train
+Self_Employed,3,TRUE,5.211726384364821,train
