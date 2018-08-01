@@ -160,13 +160,18 @@ test_prep3 <- test_prep3 %>%
 train_prep4 <- train_prep3 %>% 
   dplyr::rename(Loan_Status_raw = Loan_Status) %>% 
   dplyr::mutate(Loan_Status = factor(ifelse(Loan_Status_raw == 'Y', 1, 0))) %>% 
-  dplyr::select(-contains('_raw'))
+  dplyr::select(-contains('_raw')) %>% 
+  as.data.frame()
 
-test_prep4 <- test_prep3    ## No target variable in TEST dataset
+test_prep4 <- test_prep3 %>%     ## No target variable in TEST dataset
+  as.data.frame()
 
 # ## Summary
 # summary(train_prep4)
 
+## Add rowname
+rownames(train_prep4) <- train_prep4$Loan_ID
+rownames(test_prep4) <- test_prep4$Loan_ID
 
 ########################################
 ## Create final analysis dataset
