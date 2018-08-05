@@ -1,0 +1,62 @@
+
+### Load library
+```{r results='hide', message=FALSE, warning=FALSE}
+library(tidyverse)
+library(magrittr)
+library(stringr)
+
+library(DT)
+library(ggmap)
+```
+
+### Import source dataset and merge with geolocation
+
+```{r}
+data_raw <- read.csv(file = "./../01 Raw dataset/traffic_accidents_2000 - uganda.csv", header = T, sep = ";")
+
+data_geo <- readr::read_csv(file = "./../03 Analysis dataset/data_geolocation_uganda.csv", col_names = T, col_types = cols())
+
+## combine dataset
+data <- data_raw %>% 
+  dplyr::inner_join(data_geo, by = c("Area" = "Area")) %>% 
+  dplyr::select(Area, Fatal, Minor, Injured, Killed, 
+                total, serious, lon_Area, lat_Area)
+
+# DT::datatable(data)
+data
+
+## Change data layout into long format
+data_long <- tidyr::gather(data = data, key = accident_level, value = count,
+                           -c(Area, lon_Area, lat_Area)) %>% 
+  dplyr::arrange(Area)
+
+data_long
+```
+
+### EDA
+```{r}
+uganda <- ggmap::get_map(location = 'Uganda', zoom = 7)
+
+ggmap::ggmap(uganda) +
+  geom_point(data = data_long, aes(x = lon_Area, y = lat_Area, color = accident_level))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
