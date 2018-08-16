@@ -1,0 +1,49 @@
+label,display,url
+MDG_0000000012,Antiretroviral therapy coverage among people with advanced HIV infection (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=12
+MDG_0000000017,Deaths due to tuberculosis among HIV-negative people (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=17
+MDG_0000000018,Deaths due to tuberculosis among HIV-positive people (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=17
+MDG_0000000019,Prevalence of HIV among adults aged >=15 years (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=19
+MDG_0000000021,Population aged 15-24 years with comprehensive correct knowledge of HIV/AIDS (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=21
+WHS4_99,Antiretroviral therapy coverage among HIV-infected pregnant women for PMTCT (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=82
+WHS2_138,Deaths due to HIV/AIDS (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=86
+WHS2_170,Distribution of causes of death among children aged <5 years (%) - HIV/AIDS,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=89
+TB_e_mort_exc_tbhiv_100k,"Mortality of TB cases (all forms, excluding HIV) per 100 000 population",
+TB_e_mort_exc_tbhiv_num_save,"Number of deaths from TB (all forms, excluding HIV)",
+MDG_0000000029,Prevalence of HIV among adults aged 15 to 49 (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=334
+MDG_0000000033,Antiretroviral therapy coverage among people with HIV infection eligible for ART according to 2010 guidelines (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=12
+MDG_0000000034,"Antiretroviral therapy coverage among people with advanced HIV infection (%), WHO 2006 guidelines",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=12
+HIV_0000000001,Estimated number of people (all ages) living with HIV,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2921
+HIV_0000000002,Number of adults aged 15 and over living with HIV,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2921
+HIV_0000000003,Number of women aged 15 and over living with HIV,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2921
+HIV_0000000004,Number of children under 15 living with HIV,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2921
+HIV_0000000005,HIV prevalence rate among adults (15-49),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=86
+HIV_0000000006,Number of deaths due to HIV/AIDS,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2922
+HIV_0000000013,"Pregnant women tested for HIV, reported number",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2927
+HIV_0000000014,"Pregnant women tested for HIV, estimated coverage (%)",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2929
+HIV_0000000015,Number of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2936
+HIV_0000000016,"Number of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission, reporting period",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2936
+HIV_0000000017,"Number of people aged 15 years and over who received HIV testing and counselling, reported number",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2930
+HIV_0000000018,"People aged 15 years and over who received HIV testing and counselling, estimated number per 1000 adult population",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2931
+HIV_0000000019,"Number of people aged 15 years and over who received HIV testing and counselling, reporting period",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2931
+HIV_0000000020,Estimated percentage of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4754
+HIV_0000000021,Estimated number of pregnant women living with HIV needing antiretrovirals for preventing mother-to-child transmission based on WHO methods,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2933
+TB_e_mort_exc_tbhiv_num,"Number of deaths due to tuberculosis, excluding HIV",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1425
+TB_e_inc_tbhiv_100k,Incidence of tuberculosis (per 100 000 population) (HIV-positive cases),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=20
+TB_e_inc_tbhiv_num,"Number of incident tuberculosis cases, (HIV-positive cases)",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=1426
+EQ_KNHIV,Knowlege about sexual transmission of AIDS,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4441
+EQ_HIVPREV,HIV prevalence,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4444
+RSUD_41,Specialized treatment services for drug use disoders and HIV/AIDS,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2535
+WHS10_6,Number of national population surveys - HIV prevalence,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=83
+HIV_0000000026,Number of new HIV infections,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4659
+MEDS1_02_14,HIV mortality rate,
+MEDS6_01_02_06,Free medicines for HIV,
+TB_hivtest_pct,TB patients with known HIV status (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3428
+TB_hivtest_pos_pct,Tested TB patients HIV-positive (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3429
+TB_hiv_cpt_pct,HIV-positive TB patients on CPT (co-trimoxazole preventive therapy) (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3430
+TB_hiv_art_pct,HIV-positive TB patients on ART (antiretroviral therapy) (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=3431
+TB_c_tbhiv_tsr,Treatment success rate: HIV-positive TB cases,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4462
+HIV_ARTCOVERAGE,Estimated antiretroviral therapy coverage among people living with HIV (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4755
+EQ_CONDOMUSE,People who identify the use of condoms as a way to avoid AIDS (%),
+SDGHIV,New HIV infections (per 1000 uninfected population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4752
+RSUD_620,"HIV, Hepatitis counselling and treatment availability in specialized facilities and services",http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2535
+SDGHIV1524,New HIV infections among adults 15-24 years old (per 1000 uninfected population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4752

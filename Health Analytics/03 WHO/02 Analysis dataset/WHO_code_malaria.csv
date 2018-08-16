@@ -1,0 +1,29 @@
+label,display,url
+MDG_0000000014,Children aged <5 years with fever who received treatment with any antimalarial (%),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=14
+MDG_0000000016,Deaths due to malaria (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=16
+WHS3_48,Malaria - number of reported confirmed cases,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4635
+WHS2_152,Deaths due to malaria (per 100 000 population),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=16
+WHS2_164,Distribution of causes of death among children aged <5 years (%) - Malaria,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=89
+MALARIA_15043,Suspected malaria cases,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4633
+MALARIA_15049,Malaria outpatient cases,
+MALARIA_15065,Number of reported presumed and confirmed malaria cases,
+MALARIA_16227,Number of malaria cases treated with ACT in public facilities,
+MALARIA_16263,Number of malaria cases treated with ACT (Community level),
+MALARIA_15056,Malaria inpatient cases,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4640
+MALARIA_15059,Malaria attributed deaths,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2967
+MALARIA_16231,All-cause deaths (including malaria death) (Vital registration),
+MALARIA_16232,Malaria deaths (including confirmed deaths) (Vital registration),
+MALARIA_15284,Government budget for malaria (USD),
+MALARIA_15310,Gov. expenditure on malaria (USD),
+MALARIA_16254,Malaria-free areas (no indigenous transmission),
+MALARIA_30526,IPT and Anti-malarial Treatment - Percentage who took 2+ doses SP/Fansidar,
+MALARIA_30532,Prompt Treatment - Percentage who took antimalarial drugs (Among children under age five with fever),
+MALARIA_30533,Prompt Treatment - Percentage who took antimalarial drugs same or next day (Among children under age five with fever),
+MALARIA001,Malaria - number of reported deaths,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2967
+MALARIA002,Estimated number of malaria cases,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2971
+MALARIA003,Estimated number of malaria deaths,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4650
+MALARIA004,Number of under-five deaths from malaria,http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=2967
+MALARIA005,Malaria incidence per 100 000 population,
+MEDS1_02_16,Malaria mortality rate,
+MEDS6_01_02_03,Free medicines for Malaria,
+SDGMALARIA,Malaria incidence (per 1 000 population at risk),http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=4670
